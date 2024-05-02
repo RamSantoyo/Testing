@@ -7,7 +7,7 @@ export const FirstApp = ({ title = "Default Title", subTitle = "Default Subtitle
     <>
       <h1>{title}</h1>
       <p>{subTitle}</p>
-      <p>Mi nombre es: {name}</p>
+      <p>{name}</p>
     </>
   )
 }
