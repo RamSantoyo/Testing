@@ -1,23 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renderizar el componente <FirstApp /> Mostrar el titulo enviado por props 1`] = `
+exports[`Renderizar el componente <FirstApp /> Default props render 1`] = `
 <div>
   <h1>
-    Hola, soy Goku
-  </h1>
-  <p>
-    Soy un subtitulo
-  </p>
-  <p>
-    Goku
-  </p>
-</div>
-`;
-
-exports[`Renderizar el componente <FirstApp /> debe renderizarse sin errores 1`] = `
-<div>
-  <h1>
-    Hola, soy Goku
+    Default Title
   </h1>
   <p>
     Soy un subtitulo
