@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest --watchAll",
-    "file": "jest FirstApp2.test.jsx --watchAll"
+    "file": "jest App.test.jsx --watchAll"
   },
   "dependencies": {
     "react": "^18.2.0",

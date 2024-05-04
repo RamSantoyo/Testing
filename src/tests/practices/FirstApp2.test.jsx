@@ -26,7 +26,7 @@ describe('Component <FirstApp />', () => {
     expect(screen.getAllByText(title)).toBeTruthy();// si existe el texto
   })
 
-  test('Watching one h1 % 2 p', () => { 
+  test('Watching one h1 & 2 p', () => { 
     render(<FirstApp title={title} subTitle={subTitle} name={name} />);
     expect(screen.getAllByRole('heading').length).toBe(1);
     expect(screen.getAllByRole('paragraph').length).toBe(2);
